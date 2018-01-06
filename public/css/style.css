@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/vegas-best-burgers.gif");
+}
+
+.add {
+    margin: 2% 0;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #a11b19;
+    display:block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+ul,li {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.btnDevour {
+    background: #FF851B;
+    color: black;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.burgerType {
+    font-size: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 12px;
+}
+
+#btnCreate {
+    display: block;
+    margin: 0 auto;
+    background: #FF851B;
+    color: black;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#textArea {
+    color: #800000;
+}
