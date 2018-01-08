@@ -1,10 +1,6 @@
-//TEST ONLY
-var cool = require('cool-ascii-faces');
 var bodyParser = require("body-parser");
 var express = require("express");
 var methodOverride = require("method-override");
-
-
 
 var app = express();
 
@@ -20,11 +16,6 @@ app.set("view engine", "handlebars");
 var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
-
-//TEST ONLY
-app.get('/cool', function(request, response) {
-    response.send(cool());
-  });
 
 app.set("port", (process.env.PORT || 3000));
 
