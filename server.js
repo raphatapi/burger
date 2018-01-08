@@ -1,3 +1,4 @@
+var cool = require('cool-ascii-faces');
 var bodyParser = require("body-parser");
 var express = require("express");
 var methodOverride = require("method-override");
@@ -18,6 +19,10 @@ app.set("view engine", "handlebars");
 var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
+
+app.get('/cool', function(request, response) {
+    response.send(cool());
+  });
 
 app.listen(port, function(){
     console.log('The app is listening on port ' + port);
