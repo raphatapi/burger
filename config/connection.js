@@ -1,12 +1,17 @@
 var mysql = require("mysql");
+var connection;
 
-var connection = mysql.createConnection({
-  port: 3306,
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "burgers_db"
-});
+if (process.env.CLEARDB_DATABASE_URL) {
+  connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+} else {
+  connection = mysql.createConnection({
+    port: 3306,
+    host: "localhost",
+    user: "root",
+    password: "root",
+    database: "burgers_db"
+  }); 
+};
 
 connection.connect(function(err) {
   if (err) {
@@ -17,5 +22,3 @@ connection.connect(function(err) {
 });
 
 module.exports = connection;
-
-// mysql://b13d4f5caa667b:4e0c31c2@us-cdbr-iron-east-05.cleardb.net/heroku_2b4c26e35965172?reconnect=true
