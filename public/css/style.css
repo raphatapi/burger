@@ -7,9 +7,10 @@ body {
 }
 
 .heading {
+    font-family: "Righteous", cursive;
     font-size: 30px;
     font-weight: bold;
-    color: #a11b19;
+    color: red;
     display:block;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -23,7 +24,9 @@ ul,li {
 }
 
 .btnDevour {
-    background: #FF851B;
+    background: rgb(255, 131, 23);
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
     color: black;
     padding: 5px;
     border: 1px solid #FF851B;
@@ -35,15 +38,18 @@ ul,li {
 
 .burgerType {
     font-size: 25px;
-    font-family: 'Gloria Hallelujah', cursive;
+    color: aquamarine;
+    font-family: 'Righteous', cursive;
     padding-top: 12px;
 }
 
 #btnCreate {
     display: block;
     margin: 0 auto;
-    background: #FF851B;
+    background: rgb(255, 131, 23);
     color: black;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
     padding: 5px;
     border: 1px solid #FF851B;
     border-radius: 5px;
@@ -51,5 +57,5 @@ ul,li {
 }
 
 #textArea {
-    color: #800000;
+    color: red;
 }

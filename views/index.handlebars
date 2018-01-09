@@ -18,7 +18,7 @@
     <div class="main row">
         <div class="col-lg-3">
             <div class="leftBurgers text-center">
-                <h2 class="heading headTitle">Fresh New Burgers</h2>
+                <h2 class="heading headTitle">New Burgers</h2>
                 <ul>
                     {{#each burgers}} {{#unless this.devoured}}
                         <li>
@@ -34,7 +34,7 @@
         </div>
         <div class="col-lg-3">
             <div class="rightBurgers text-center">
-                <h2 class="heading headTitle">Burgers Eaten</h2>
+                <h2 class="heading headTitle">Burgers Devoured</h2>
                 <ul>
                     {{#each burgers}} {{#if this.devoured}}
                     <li>
