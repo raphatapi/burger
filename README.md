@@ -9,7 +9,7 @@
 
 ### It's also mobile friendly:
 
-![Mobile Gif](/public/images/mobile.gif) ![Mobile Gif](/public/images/mobile.gif)
+![Mobile Gif](/public/images/mobile.gif)![Mobile Gif](/public/images/mobile.gif)
 
 ### Built with MySQL, Node, Express, Handlebars and ORM (and love!:heart:).
 
