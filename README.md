@@ -1,7 +1,7 @@
 # Burger Handlebars App :hamburger:
 
 ## This application allows the user to add the burger of their choice and "devoure it".
-### Click here to start creating and devouring burgers: [Burger Bracket](https://burger-bracket.herokuapp.com/burgers)
+### Click [here](https://burger-bracket.herokuapp.com/burgers) to start creating and devouring burgers: [Burger Bracket](https://burger-bracket.herokuapp.com/burgers)
 
 ### Check out a demo of the app:
 
