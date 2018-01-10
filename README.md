@@ -9,7 +9,7 @@
 
 ### It's also mobile friendly:
 
-![Mobile Gif](/public/images/mobile.gif) <!-- .element height="50%" width="50%" -->
+![Mobile Gif](/public/images/mobile.gif){:height="50%" width="50%"}
 
 ### Built with MySQL, Node, Express, Handlebars and ORM (and love!:heart:).
 
