@@ -7,6 +7,10 @@
 
 ![Burger Gif](/public/images/gif.gif)
 
+### It's also mobile friendly:
+
+![Mobile Gif](/public/images/mobile.gif)
+
 ### Built with MySQL, Node, Express, Handlebars and ORM (and love!:heart:).
 
 ### What does it do?
