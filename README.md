@@ -7,7 +7,7 @@
 
 ![Burger Gif](/public/images/gif.gif)
 
-### Built with MySQL, Node, Express, Handlebars and ORM.
+### Built with MySQL, Node, Express, Handlebars and ORM (and love!:heart:).
 
 ### What does it do?
 
