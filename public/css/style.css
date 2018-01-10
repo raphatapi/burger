@@ -1,10 +1,10 @@
 body {
     background-color: black;
-    background: url("../images/vegas-best-burgers.gif") no-repeat top left; 
+    background: url("../images/burgers.gif") no-repeat top left; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: auto;
+    background-size: cover;
 }
 
 .add {
@@ -72,11 +72,10 @@ ul,li {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: auto;
     }
 
     .logo img{
-        /* margin: 1% 0; */
         width: 100%;
     }
 }
