@@ -10,7 +10,7 @@
 ### It's also mobile friendly:
 
 <!-- ![Mobile Gif](/public/images/mobile.gif) -->
-<img src="/public/images/mobile.gif" width="100">
+<img src="/public/images/mobile.gif" width="250">
 
 ### Built with MySQL, Node, Express, Handlebars and ORM (and love!:heart:).
 
